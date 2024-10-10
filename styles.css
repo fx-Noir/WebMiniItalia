@@ -1,0 +1,90 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center; /* Centra todo el contenido */
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    text-align: center; /* Centra los parrafos */
+    margin: 20px auto;
+    max-width: 80%; /* Para evitar que el texto esté demasiado ancho */
+    line-height: 1.6;
+}
+
+/* Centrado de las imagenes */
+.centered {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.title-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #008C45, #F4F5F0, #DA291C);
+    padding: 10px;
+}
+
+/* Menu styles */
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos del menu */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Footer styles */
+footer {
+    background-color: #f1f1f1;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #888;
+}
